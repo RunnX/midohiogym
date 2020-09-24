@@ -256,6 +256,7 @@ function simpleMap(latitude, longitude, markerImage, mapTheme, mapElement){
     };
     var element = document.getElementById(mapElement);
     var map = new google.maps.Map(element, mapOptions);
+    map.mapTypeId: "satellite";
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(latitude,longitude),
         map: map,
