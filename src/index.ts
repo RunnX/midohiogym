@@ -19,7 +19,8 @@ app.use('/js', express.static( path.join( __dirname, "js" ) ) );
 // define a route handler for the default home page
 app.get( "/", ( req, res ) => {
     // render the index template
-    res.render( "index" );
+    // res.render( "index" );
+    res.sendFile(path.join( __dirname, "index.html"));
 } );
 
 // start the Express server

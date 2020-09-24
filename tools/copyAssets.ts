@@ -8,3 +8,4 @@ shell.cp( "-R", "src/assets/css", "app/" );
 shell.cp( "-R", "src/assets/fonts", "app/" );
 shell.cp( "-R", "src/assets/img", "app/" );
 shell.cp( "-R", "src/assets/js", "app/" );
+shell.cp( "-R", "src/index.html", "app/" );
