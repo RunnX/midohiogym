@@ -184,9 +184,6 @@
 <!--end modal-->
 
 <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApDA9prUEm605SzuBVTfYnSRFVENGv5KA&callback=initMap">
-  </script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
@@ -203,6 +200,8 @@
     var mapElement = "map-contact";
 
     var modalLoaded = 0;
+    function initMap() {}
+
     $(".modal").on("shown.bs.modal", function () {
         if( modalLoaded == 0 ){
             simpleMap(latitude, longitude, markerImage, mapTheme, mapElement);
@@ -223,6 +222,8 @@
     });
 
 </script>
-
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApDA9prUEm605SzuBVTfYnSRFVENGv5KA&callback=initMap">
+</script>
 
 </body>
