@@ -2,9 +2,9 @@
     "name": "soon",
     "version": "1.0.0",
     "description": "Mid Ohio Gymnastics",
-    "main": "dist/index.js",
+    "main": "app/index.js",
     "scripts": {
-        "clean": "rimraf dist/*",
+        "clean": "rimraf app/*",
         "copy-assets": "ts-node tools/copyAssets",
         "lint": "tslint -c tslint.json -p tsconfig.json --fix",
         "tsc": "tsc",

@@ -1,10 +1,10 @@
 import * as shell from "shelljs";
 
 // Copy all the view templates
-shell.cp( "-R", "src/views", "dist/" );
+shell.cp( "-R", "src/views", "app/" );
 // Copy all the assets
-shell.cp( "-R", "src/assets/bootstrap", "dist/" );
-shell.cp( "-R", "src/assets/css", "dist/" );
-shell.cp( "-R", "src/assets/fonts", "dist/" );
-shell.cp( "-R", "src/assets/img", "dist/" );
-shell.cp( "-R", "src/assets/js", "dist/" );
+shell.cp( "-R", "src/assets/bootstrap", "app/" );
+shell.cp( "-R", "src/assets/css", "app/" );
+shell.cp( "-R", "src/assets/fonts", "app/" );
+shell.cp( "-R", "src/assets/img", "app/" );
+shell.cp( "-R", "src/assets/js", "app/" );
